@@ -1,0 +1,121 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* Navigation bar styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    color: white;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main content area */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+/* Project section styles */
+.projects {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.projects h2 {
+    color: #333;
+}
+
+.project {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: #0779e4 5px solid;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* Contact form styles */
+.contact {
+    flex: 1;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact form {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .projects, .contact {
+        margin-right: 0;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}

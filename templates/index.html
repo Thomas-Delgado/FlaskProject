@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            max-width: 900px;
+            margin: 20px;
+        }
+
+        .sidebar {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 2px solid #f0f0f0;
+        }
+
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .name {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .resume-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .resume-content, .section {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            display: inline-block;
+            font-size: 28px; /* Adjust the size of icons as needed */
+           
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <!-- Replace 'path_to_your_image.jpg' with the actual path to your image -->
+        <img src="thomas1.jpg" alt="Your Photo">
+        <div class="contact-info">
+            <p>☎️Phone: +55 (41) 99716-4042</p>
+            <p>📧Email: delgadoth99@gmail.com</p>
+            <p>📍Curitiba, Paraná-Brazil</p>
+        </div>
+        <div class="social-links">
+            <!-- Replace href values with the actual links to your social profiles -->
+            <a href="https://www.linkedin.com/in/thomas-delgado-5093a5213/" target="_blank" title="LinkedIn">
+                <img src="linkedin.png" alt="Linkedin" style="width: 24px; height: 24px;">
+            </a>
+            <a href="https://www.github.com/Thomas-Delgado" target="_blank" title="GitHub">
+                <img src="github.png" alt="GitHub" style="width: 24px; height: 24px;">
+            </a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="name"><b>Thomas Delgado</b></div>
+        <div class="resume">
+            <div class="resume-title"><b>Resume</b></div>
+            <div class="resume-content">
+                <p style = 'font-size: 16px;'>Currently studying software engineering at the university, I love to learn new things and i'm an adept of the continuous learning philosophy,
+                    advanced knowledge in English and basic/intermediate level in German, communicative and curious.
+                </p>
+            </div>
+        </div>
+        <div class="section" id="experience">
+            <h2>Experience</h2>
+            <p style = 'font-size: 16px;'> <b>- Developer Intern at Fitmass HealthTech(october/23-now)</b></p>
+            <p style = 'font-size: 15px;'>I work with the back-end team to maintain the AWS cloud environment, creating and modifying Lambda functions in Python for the apps of the company and as well as for internal processes.Also i help with the analytics job, creating ETL processes to fill the data visualization using Python and Power BI/Looker Studio.
+            
+            <p style = 'font-size: 16px;'> <b>- I.T Support Intern at Justice Court of Paraná-Brazil(september/21-July/23)</b></p>
+            <p style = 'font-size: 15px;'>Worked with I.T support such as configuring and maintaining the Computers of the Court, also attending the tickets from the magistrates and other employees to help them with computing problems.</p>
+            </p>
+        </div>
+
+        <div class="section" id="projects">
+            <h2>Academial Formation</h2>
+            <p style = 'font-size: 16px;'> <b>- Software Engineering, Universidade Positivo in Curitiba - Brazil</b></p>
+            <p style = 'font-size: 15px;'>Third year of the graduation, the conclusion date is dezember/2025.</p>
+        </div>
+
+        <div class="section" id="academical-formation">
+            <h2>Knowledges</h2>
+            <p>●Avanced Python, such as AWS CDK, Pandas, Flask, Streamlit and OOP.</p>
+            <p>●AWS, such as DynamoDB, Lambdas, S3, Api Gateway and IAM.</p>
+            <p>●Experience with Scrum.</p>
+            <p>●Git and Github.</p>
+            <p>●Basic HTML, CSS and Javascript.</p>
+            <p>●Basic Linux knowledge.</p>
+            <p>●Experience with Non Relational Databases.</p>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>
